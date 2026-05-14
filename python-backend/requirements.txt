@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+python-dotenv
+openai
+sqlalchemy
+passlib[bcrypt]
+bcrypt==4.0.1
+PyJWT
+chromadb
+requests
+beautifulsoup4
+langgraph
