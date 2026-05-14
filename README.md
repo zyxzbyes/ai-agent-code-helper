@@ -1,12 +1,6 @@
 # AI 编程小助手
 
-AI 编程小助手是一个面向编程学习、求职面试和技术资讯问答的 AI Assistant 项目。项目从原 Java Spring Boot + LangChain4j 版本迁移到 Python FastAPI + LangGraph Agent 架构，同时保留 Vue 前端体验和流式聊天交互。
-
-当前仓库包含原 Java 项目和 Vue 前端；迁移后的 Python 后端位于：
-
-```text
-D:\agent\python-backend
-```
+AI 编程小助手是一个面向编程学习、求职面试和技术资讯问答的 AI Assistant 项目。项目从为 Python FastAPI + LangGraph Agent 架构，同时保留 Vue 前端体验和流式聊天交互。
 
 ## 技术栈
 
@@ -196,8 +190,6 @@ copy D:\agent\python-backend\.env.example D:\agent\python-backend\.env
 并填写模型和搜索相关 API Key。
 
 ## 环境变量说明
-
-Python 后端环境变量位于 `D:\agent\python-backend\.env`：
 
 | 变量 | 说明 |
 | --- | --- |
